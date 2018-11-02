@@ -1,16 +1,17 @@
-package com.accenture.lkm.collection.assignment.list;
+package com.accenture.lkm.collection.assignment.map;
 
-import java.util.List;
+import java.util.Map;
 
 public class TransactionService {
+	// Method to print transaction ids for an account number
 	
-	//This method helps to print transactions corresponding to a particular account
-
-	public void printAllTransactions(List<Transaction> transactions, long accountNumber) {
-		/*TODO
-		Create a stream on the collection which contains all transaction objects.
-		Use a Predicate functional interface to filter transactions 
-					corresponding to the account number.*/
+	public void printAllTransactions(Map<String, Transaction> transactions, long accountNumber) {
+		//TODO
 		
+		//Check whether account number of each element in the collection is matching the provided account number
+		
+				//Print transaction id if a match of account number is found
+				
+
 	}
 }

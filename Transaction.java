@@ -1,4 +1,4 @@
-package com.accenture.lkm.collection.assignment.list;
+package com.accenture.lkm.collection.assignment.map;
 
 public class Transaction {
 
